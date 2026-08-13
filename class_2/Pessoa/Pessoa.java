@@ -2,7 +2,12 @@ public class Pessoa{
     String nome;
     int idade;
 
+    public Pessoa(String nome, int idade){ //Definindo parametros no construtor
+        this.nome = nome;
+        this.idade = idade;
+    }
+
     void apresentar(){
-        System.out.println("Ola! Meu nome é " + nome);
+        System.out.println("Ola! Meu nome é " + nome + "\nTenho " + idade + " anos!");
     }
 }
