@@ -5,6 +5,6 @@ public class Main {
         aluno.setNota1(11);
         aluno.setNota2(7);
 
-        System.out.println("Media do aluno: " + aluno.calcularMedia());
+        System.out.println("Nota 1: " + aluno.getNota1() + "\nNota 2: " + aluno.getNota2() + "\nMedia do aluno: " + aluno.calcularMedia());
     }
 }

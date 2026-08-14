@@ -5,6 +5,6 @@ public class Main {
         produto.setPreco(3.50);
         produto.setQuantidade(35);
 
-        System.out.println("Valor total: " + produto.calcularTotal());
+        System.out.println("Produto: " + produto.getNome() + "\nPreco: "+ produto.getPreco() +"\nQuantidade: " + produto.getQuantidade() + "\nValor total: " + produto.calcularTotal());
     }
 }
