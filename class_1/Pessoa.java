@@ -1,3 +1,5 @@
+import Pessoa.Pessoa;
+
 public class Pessoa{
     String nome; //Atributo//
     int idade;  //Atributo//
