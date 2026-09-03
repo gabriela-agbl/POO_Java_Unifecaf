@@ -1,11 +1,11 @@
-public class Cachorro extends Animal{
-	public Cachorro(String nome) {
+public class Gato extends Animal{
+	public Gato(String nome) {
 		super(nome);
 	}
 	
 	@Override
 	public void emitir_som() {
-		System.out.println("Au au!");
+		System.out.println("Miau!");
 	}
 	
 	public void apresentar() {
