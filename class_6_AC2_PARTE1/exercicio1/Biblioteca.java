@@ -38,9 +38,9 @@ public class Biblioteca {
 				
 				return;
 			}
-			
-			System.out.printf("O livro não foi encontrado");
 		}
+		
+		System.out.printf("O livro não foi encontrado%n");
 	}
 	
 	public void devolver_livro(String titulo) {
@@ -54,9 +54,9 @@ public class Biblioteca {
 				
 				return;
 			}
-			
-			System.out.printf("O livro não foi encontrado");
 		}
+		
+		System.out.printf("O livro não foi encontrado");
 	}
 	
 	public void livros_disponiveis() {
