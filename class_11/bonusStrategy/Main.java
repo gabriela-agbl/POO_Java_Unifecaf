@@ -14,5 +14,19 @@ public class Main {
             dev.calcularBonus(),
             dev.calcularRemuneracaoTotal()
         );
+
+         System.out.printf("Funcionario: %s%nSalario: R$ %.2f%nBonus: R$ %.2f%nRemuneração Total: R$ %.2f%n",
+            gerente.getNome(),
+            gerente.getSalario(),
+            gerente.calcularBonus(),
+            gerente.calcularRemuneracaoTotal()
+        );
+
+         System.out.printf("Funcionario: %s%nSalario: R$ %.2f%nBonus: R$ %.2f%nRemuneração Total: R$ %.2f%n",
+            estag.getNome(),
+            estag.getSalario(),
+            estag.calcularBonus(),
+            estag.calcularRemuneracaoTotal()
+        );
     }
 }

@@ -1,9 +1,9 @@
 public class Funcionario {
-    private String nome;
-    private double salario;
-    private BonusStrategy bonusStrategy;
+    protected String nome;
+    protected double salario;
+    protected BonusStrategy bonusStrategy;
 
-    public Funcionario(BonusStrategy bonusStrategy){
+    public Funcionario(BonusStrategy bonusStrategy, String nome, double salario){
         this.bonusStrategy = bonusStrategy;
         this.nome = nome;
         this.salario = salario;
